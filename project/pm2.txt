@@ -1,0 +1,7 @@
+npm run build 
+pm2 serve <path> <port> --spa
+pm2 serve build 8082 --spa 
+
+pm2 list
+pm2 delete all
+pm2 delete <app-name>

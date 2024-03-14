@@ -1,0 +1,2 @@
+cd /etc/nginx
+sudo nano nginx.conf

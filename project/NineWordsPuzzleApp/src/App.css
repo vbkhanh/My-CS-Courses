@@ -1,0 +1,80 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+fieldset {
+  border: 0;
+}
+
+.btn {
+  font-size: 15px;
+  border: 2px solid transparent;
+  border-radius: 7%;
+  padding: 10px 15px;
+  text-decoration: none;
+  background-color: lightblue;
+  margin-top: 2px;
+}
+
+table {
+  min-width: 40vw;
+}
+
+.btn:hover {
+  border: 2px solid;
+  border-color: rgb(58, 167, 167);
+}
+
+.ctn1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20vw;
+  align-items: center;
+}
+
+.ctn2 {
+  margin-top: 3px;
+}
+
+.ctn2 .btn {
+  margin-right: 30px;
+}
+
+.frm {
+  text-align: center;
+}
+
+
+.letter {
+  font-size: xx-large;
+  background-color: lightblue;
+  margin:0.11em;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.fifthLetter {
+  background-color: black;
+  color: white;
+  font-size: xx-large;
+  margin:0.11em;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.grid {
+  width: 200px;
+  height: 200px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.point {
+  border-style: solid;
+  border-color: lightblue;
+  padding: 1em 2em;
+}
+
